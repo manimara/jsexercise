@@ -9,7 +9,7 @@ var obj = {
     },
   },
 };
-console.log(obj.prop.getFullname()); // aurelio De Rosa - correct
+console.log(obj.prop.getFullname()); // Aurelio De Rosa - correct
 var test = obj.prop.getFullname; 
 console.log(test()); // "John Doe" - correct
 console.log(test.call(obj.prop));// Colin Ihrig - wrong- i 've not noticed the obj.prop
